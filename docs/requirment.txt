@@ -1,0 +1,12 @@
+dnspython
+
+INSTALL Python 3.12
+
+py -m pip install colorama
+
+
+#Use py + absolute path
+py C:\client\tool.py -t 10
+
+Install Nmap
+Add Nmap to system PATH

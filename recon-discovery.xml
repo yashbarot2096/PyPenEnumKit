@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Mon Dec 15 22:20:11 2025 as: &quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -sn -oA recon-discovery 172.223.70.173 -->
+<nmaprun scanner="nmap" args="&quot;C:\\Program Files (x86)\\Nmap\\nmap.exe&quot; -sn -oA recon-discovery 172.223.70.173" start="1765858811" startstr="Mon Dec 15 22:20:11 2025" version="7.98" xmloutputversion="1.05">
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Ping Scan" time="1765858811" percent="100.00" remaining="0" etc="1765858811"/>
+<taskprogress task="Parallel DNS resolution of 1 host." time="1765858811" percent="0.00"/>
+<host><status state="up" reason="echo-reply" reason_ttl="64"/>
+<address addr="172.223.70.173" addrtype="ipv4"/>
+<hostnames>
+<hostname name="syn-172-223-070-173.res.spectrum.com" type="PTR"/>
+</hostnames>
+<times srtt="18000" rttvar="18000" to="100000"/>
+</host>
+<runstats><finished time="1765858811" timestr="Mon Dec 15 22:20:11 2025" summary="Nmap done at Mon Dec 15 22:20:11 2025; 1 IP address (1 host up) scanned in 0.26 seconds" elapsed="0.26" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

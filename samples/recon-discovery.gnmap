@@ -1,0 +1,3 @@
+# Nmap 7.98 scan initiated Mon Dec 15 22:20:11 2025 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sn -oA recon-discovery 172.223.70.173
+Host: 172.223.70.173 (syn-172-223-070-173.res.spectrum.com)	Status: Up
+# Nmap done at Mon Dec 15 22:20:11 2025 -- 1 IP address (1 host up) scanned in 0.26 seconds

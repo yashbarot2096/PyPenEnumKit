@@ -1,0 +1,41 @@
+Usage:
+  python main.py [options]
+
+Description:
+  Enumeration Tool is a Python-based reconnaissance utility that automates
+  host discovery and scanning using Nmap.
+
+Options:
+  -h, --help            Show this help message and exit
+
+  -t, --target TARGET  Target IP address, hostname, or CIDR range
+                       Examples:
+                         192.168.1.1
+                         scanme.nmap.org
+                         192.168.1.0/24
+
+  -sn                  Perform host discovery only (ping scan)
+
+  -o, --output PATH    Directory to store scan reports
+                       Default: ./enumreports
+
+  --timeout SECONDS    Set scan timeout (default: 30 seconds)
+
+Examples:
+  Host discovery on a subnet:
+    python main.py -t 192.168.1.0/24 -sn
+
+  Scan a single host:
+    python main.py -t 192.168.1.1
+
+  Specify output directory:
+    python main.py -t scanme.nmap.org -o reports/
+
+Notes:
+  - Nmap must be installed and available in system PATH
+  - Do not run scans without authorization
+
+
+References
+https://youtube.com/shorts/YuDk1HQudEs?si=-NtMDIlo1Vw0kXf3
+
